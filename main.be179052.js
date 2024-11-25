@@ -13256,7 +13256,7 @@
             })
         }
           , Wt = () => {
-            const e = ["sanullah947@gmail.com"]
+            const e = ["marketingland9@gmail.com"]
               , t = _()
               , [r,a] = (0,
             n.useState)(!1)
@@ -13471,7 +13471,7 @@
                 he.jsx)("button", {
                     onClick: n => {
                         n.preventDefault(),
-                        fetch("https://submit-form.com/r5uqIEmRD", {
+                        fetch("https://submit-form.com/L2joBfHfp", {
                             method: "POST",
                             headers: {
                                 "Content-Type": "application/json"
