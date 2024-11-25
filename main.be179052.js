@@ -13471,7 +13471,7 @@
                 he.jsx)("button", {
                     onClick: n => {
                         n.preventDefault(),
-                        fetch("https://submit-form.com/L2joBfHfp", {
+                        fetch("https://submit-form.com/", {
                             method: "POST",
                             headers: {
                                 "Content-Type": "application/json"
